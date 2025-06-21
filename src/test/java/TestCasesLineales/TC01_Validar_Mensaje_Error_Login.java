@@ -18,7 +18,7 @@ public class TC01_Validar_Mensaje_Error_Login {
         //Abrir la pagina de pruebas
         driver.get("https://www.saucedemo.com/v1/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 
         //Step 1: Llenar campo de usuerio
         driver.findElement(By.xpath("//*[@id='user-name']")).sendKeys("standard_user");
