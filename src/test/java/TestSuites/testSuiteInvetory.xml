@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionAutomatedQA" parallel="tests" thread-count="5">
+
+    <test name="TC01_Login_Error">
+        <classes>
+            <class name="TestCasesPOM.TC01_Login_Error"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="TC02_Validar_Boton_Add_To_Cart">
+        <classes>
+            <class name="TestCasesPOM.TC02_Validar_Boton_Add_To_Cart"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="TC03_Validar_Boton_Remove">
+        <classes>
+            <class name="TestCasesPOM.TC03_Validar_Boton_Remove"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
